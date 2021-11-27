@@ -13,6 +13,10 @@
 		36D2B0E02752A6B6001CD7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D2B0DE2752A6B6001CD7C5 /* Main.storyboard */; };
 		36D2B0E22752A6BC001CD7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D2B0E12752A6BC001CD7C5 /* Assets.xcassets */; };
 		36D2B0E52752A6BC001CD7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D2B0E32752A6BC001CD7C5 /* LaunchScreen.storyboard */; };
+		36D2B0ED2752AD7A001CD7C5 /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2B0EC2752AD7A001CD7C5 /* BoardCell.swift */; };
+		36D2B0EF2752AFB4001CD7C5 /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2B0EE2752AFB4001CD7C5 /* BoardItem.swift */; };
+		36D2B0F12752AFCA001CD7C5 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2B0F02752AFCA001CD7C5 /* Board.swift */; };
+		36D2B0F32752AFD8001CD7C5 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2B0F22752AFD8001CD7C5 /* Turn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		36D2B0E12752A6BC001CD7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D2B0E42752A6BC001CD7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36D2B0E62752A6BC001CD7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D2B0EC2752AD7A001CD7C5 /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		36D2B0EE2752AFB4001CD7C5 /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
+		36D2B0F02752AFCA001CD7C5 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		36D2B0F22752AFD8001CD7C5 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				36D2B0E12752A6BC001CD7C5 /* Assets.xcassets */,
 				36D2B0E32752A6BC001CD7C5 /* LaunchScreen.storyboard */,
 				36D2B0E62752A6BC001CD7C5 /* Info.plist */,
+				36D2B0EC2752AD7A001CD7C5 /* BoardCell.swift */,
+				36D2B0EE2752AFB4001CD7C5 /* BoardItem.swift */,
+				36D2B0F02752AFCA001CD7C5 /* Board.swift */,
+				36D2B0F22752AFD8001CD7C5 /* Turn.swift */,
 			);
 			path = Connect4Game;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D2B0EF2752AFB4001CD7C5 /* BoardItem.swift in Sources */,
 				36D2B0DD2752A6B6001CD7C5 /* ViewController.swift in Sources */,
+				36D2B0F12752AFCA001CD7C5 /* Board.swift in Sources */,
 				36D2B0D92752A6B6001CD7C5 /* AppDelegate.swift in Sources */,
+				36D2B0ED2752AD7A001CD7C5 /* BoardCell.swift in Sources */,
 				36D2B0DB2752A6B6001CD7C5 /* SceneDelegate.swift in Sources */,
+				36D2B0F32752AFD8001CD7C5 /* Turn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
