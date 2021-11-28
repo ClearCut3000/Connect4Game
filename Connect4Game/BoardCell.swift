@@ -8,7 +8,8 @@
 import UIKit
 
 class BoardCell: UICollectionViewCell{
-
+  
+  /// Base cell of CollectionView
   @IBOutlet weak var image: UIImageView!
-
+  
 }
